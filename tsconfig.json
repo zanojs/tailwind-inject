@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"allowJs": false,
+		"noEmit": false,
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"downlevelIteration": true,
+		"esModuleInterop": true,
+		"incremental": true,
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "Bundler",
+		"noImplicitReturns": false,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"verbatimModuleSyntax": false,
+		"paths": {
+			"@/*": ["./src/*"],
+			"@/tests/*": ["./__tests__/*"]
+		}
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.tsx",
+		"__tests__/**/*.ts",
+		"__tests__/**/*.tsx"
+	],
+	"exclude": ["node_modules", "dist"]
+}

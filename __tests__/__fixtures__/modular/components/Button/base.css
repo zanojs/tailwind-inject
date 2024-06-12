@@ -1,0 +1,8 @@
+:root {
+	--btn-primary-bg: theme(colors.blue.500);
+	--btn-porimary-bg-hover: theme(colors.blue.600);
+}
+
+button {
+	@apply rounded-md px-4 py-2;
+}

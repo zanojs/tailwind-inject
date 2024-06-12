@@ -1,0 +1,25 @@
+@responsive {
+	.btn-left {
+		text-align: left;
+	}
+
+	.btn-center {
+		text-align: center;
+	}
+
+	.btn-right {
+		text-align: right;
+	}
+
+	.btn-full {
+		width: 100%;
+	}
+
+	.btn-half {
+		width: 50%;
+	}
+
+	.btn-third {
+		width: 33.3333%;
+	}
+}

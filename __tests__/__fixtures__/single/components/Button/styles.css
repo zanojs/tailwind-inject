@@ -1,0 +1,50 @@
+@layer base {
+	:root {
+		--btn-primary-bg: theme(colors.blue.500);
+		--btn-porimary-bg-hover: theme(colors.blue.600);
+	}
+
+	button {
+		@apply rounded-md px-4 py-2;
+	}
+}
+
+@layer components {
+	.btn-primary {
+		@apply text-white transition-colors;
+
+		background-color: var(--btn-primary-bg);
+
+		&:hover {
+			background-color: var(--btn-porimary-bg-hover);
+		}
+	}
+}
+
+@layer utilities {
+	@responsive {
+		.btn-left {
+			text-align: left;
+		}
+
+		.btn-center {
+			text-align: center;
+		}
+
+		.btn-right {
+			text-align: right;
+		}
+
+		.btn-full {
+			width: 100%;
+		}
+
+		.btn-half {
+			width: 50%;
+		}
+
+		.btn-third {
+			width: 33.3333%;
+		}
+	}
+}

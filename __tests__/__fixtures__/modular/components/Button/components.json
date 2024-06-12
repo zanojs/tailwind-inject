@@ -1,0 +1,9 @@
+{
+	".btn-primary": {
+		"@apply text-white transition-colors": true,
+		"backgroundColor": "var(--btn-primary-bg)"
+	},
+	".btn-primary:hover": {
+		"backgroundColor": "var(--btn-porimary-bg-hover)"
+	}
+}

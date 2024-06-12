@@ -1,0 +1,10 @@
+{
+	"@responsive": {
+		".btn-center": { "textAlign": "center" },
+		".btn-full": { "width": "100%" },
+		".btn-half": { "width": "50%" },
+		".btn-left": { "textAlign": "left" },
+		".btn-right": { "textAlign": "right" },
+		".btn-third": { "width": "33.3333%" }
+	}
+}

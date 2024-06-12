@@ -1,0 +1,9 @@
+.btn-primary {
+	@apply text-white transition-colors;
+
+	background-color: var(--btn-primary-bg);
+
+	&:hover {
+		background-color: var(--btn-porimary-bg-hover);
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": false,
+  "explorer.compactFolders": false,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSaveMode": "file",
+
+  "files.exclude": {
+    "**/node_modules": true
+    // "**/dist": true
+  },
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "jest.config.mjs": "jest.setup.js"
+  },
+
+  "conventionalCommits.scopes": ["workspace", "tailwind-inject"],
+  "jest.enable": false
+}

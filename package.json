@@ -1,6 +1,6 @@
 {
 	"name": "@zanojs/tailwind-inject",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "O Tailwind Inject é um plugin personalizado para Tailwind CSS que permite a injeção de classes CSS de um determinado repositório diretamente no seu tema Tailwind CSS.",
 	"type": "module",
 	"main": "dist/index.cjs",

@@ -29,17 +29,11 @@ export const getModularCSSPaths: GetModularCSSPathsHandler = (paths) => {
 	}));
 
 	const cssFiles: ModularCSSType[] = selectors.map((path) => {
-		const base = pathToUnix(
-			glob.sync(path.base, { ignore: ["**/node_modules/**"] })
-		) as string[];
+		const base = pathToUnix(glob.sync(path.base)) as string[];
 
-		const components = pathToUnix(
-			glob.sync(path.components, { ignore: ["**/node_modules/**"] })
-		) as string[];
+		const components = pathToUnix(glob.sync(path.components)) as string[];
 
-		const utilities = pathToUnix(
-			glob.sync(path.utilities, { ignore: ["**/node_modules/**"] })
-		) as string[];
+		const utilities = pathToUnix(glob.sync(path.utilities)) as string[];
 
 		return {
 			base,

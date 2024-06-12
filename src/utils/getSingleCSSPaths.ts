@@ -18,9 +18,7 @@ export const getSingleCSSPaths: GetSingleCSSPathsHandler = (paths) => {
 
 	const selector = paths.map((path) => `${path}/**/styles.css`);
 
-	const cssFiles = selector.map((path) =>
-		glob.sync(path, { ignore: ["**/node_modules/**"] })
-	);
+	const cssFiles = selector.map((path) => glob.sync(path));
 
 	return pathToUnix(cssFiles.flat()) as string[];
 };
